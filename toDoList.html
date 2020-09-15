@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="name-of-header">To Do List</h1>
+      <div class="status">
+        <p>Status:</p>
+        <div class="name-of-status">
+          <p class="text-of-status">all</p>
+          <p class="text-of-status">during</p>
+          <p class="text-of-status">completed</p>
+        </div>
+      </div>
+    </div>
+    <div class="new-do">
+      <input type="text" class="input" /><button class="button">
+        Добавить планы
+      </button>
+    </div>
+    <div class="table">
+      <table class="to-do-table">
+        <tr>
+          <td class="number-to-do">1</td>
+          <td class="do-list">дела</td>
+          <td><button class="delete">&#10008</button></td>
+          <td><button class="complete">&#10004</button></td>
+        </tr>
+        <tr>
+          <td class="number-to-do">2</td>
+          <td class="do-list">дела</td>
+          <td><button class="delete">&#10008</button></td>
+          <td><button class="complete">&#10004</button></td>
+        </tr>
+        <tr>
+          <td class="number-to-do">3</td>
+          <td class="do-list">дела</td>
+          <td><button class="delete">&#10008</button></td>
+          <td><button class="complete">&#10004</button></td>
+        </tr>
+        <tr>
+          <td class="number-to-do">4</td>
+          <td class="do-list">дела</td>
+          <td><button class="delete">&#10008</button></td>
+          <td><button class="complete">&#10004</button></td>
+        </tr>
+        <tr>
+          <td class="number-to-do">5</td>
+          <td class="do-list">дела</td>
+          <td><button class="delete">&#10008</button></td>
+          <td><button class="complete">&#10004</button></td>
+        </tr>
+        <tr>
+          <td class="number-to-do">6</td>
+          <td class="do-list">дела</td>
+          <td><button class="delete">&#10008</button></td>
+          <td><button class="complete">&#10004</button></td>
+        </tr>
+        <tr>
+          <td class="number-to-do">7</td>
+          <td class="do-list">дела</td>
+          <td><button class="delete">&#10008</button></td>
+          <td><button class="complete">&#10004</button></td>
+        </tr>
+        <tr>
+          <td class="number-to-do">8</td>
+          <td class="do-list">дела</td>
+          <td><button class="delete">&#10008</button></td>
+          <td><button class="complete">&#10004</button></td>
+        </tr>
+        
+      </table>
+    </div>
+  </body>
+  <style>
+    body {
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      background: url("img/Background.png") no-repeat;
+      background-size: cover;
+    }
+    .new-do {
+      color: rgb(65, 65, 63);
+      padding-left: 400px;
+      display: flex;
+      height: 60px;
+    }
+    .button {
+      width: 200px;
+      font-size: 1.5em;
+      margin-left: 50px;
+      background: rgba(204, 204, 204, 0.8);
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      border-radius: 1em;
+    }
+
+    .input {
+      width: 400px;
+      text-align: center;
+      font-size: 1.5em;
+      margin-left: 50px;
+      background: rgba(250, 245, 245, 0.8);
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      border-radius: 1em;
+    }
+
+    .header {
+      padding-left: 200px;
+      font-size: 2.5em;
+
+      display: flex;
+    }
+    .status {
+      margin-left: 200px;
+      padding-top: 50px;
+      display: flex;
+    }
+    .name-of-status {
+      display: flex;
+    }
+
+    .text-of-status {
+      color: grey;
+      padding-top: 20px;
+      font-size: 30px;
+      margin-left: 50px;
+    }
+
+    .table {
+      font-size: 30px;
+      color: rgb(65, 65, 63);
+      background: rgba(250, 245, 245, 0.548);
+      margin-top: 30px;
+      margin-left: 200px;
+      border: white solid 2px;
+      margin-right: 600px;
+      border-radius: 2em;
+    }
+    .number-to-do {
+      padding-left: 40px;
+      text-align: center;
+      width: 50px;
+      height: 55px;
+    }
+    .do-list {
+      padding-left: 300px;
+      text-align: center;
+    }
+    .delete {
+      font-weight: bold;
+      margin-left: 500px;
+      border-radius: 100%;
+    }
+
+    .complete {
+      color: rgb(65, 65, 63);
+      font-weight: bold;
+      border-radius: 100%;
+    }
+  </style>
+</html>
