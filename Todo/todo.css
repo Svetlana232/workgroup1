@@ -1,0 +1,55 @@
+h1 {
+    text-transform: uppercase;
+    background: #86a8e7;
+    color: Navy;
+    margin: 0;
+    padding: 10px 100px;
+    font-weight: normal;
+}
+#todo {
+    margin: 0 auto;
+    box-shadow: 0 0 1em black;
+    max-width: 500px;
+    height: 100%;
+    background: PowderBlue;
+    position: relative;
+	border: 3px solid gray;
+}
+input {
+    background: white;
+    width: 100%;
+    box-sizing: border-box;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 0.5px;
+    padding-left: 25px;
+    border: 3px solid gray;
+    color: gray;
+}
+
+#buttons {
+    display: inline-block;
+    text-align: center;
+    margin: 2px 4px;
+	color: red;
+}
+button {
+    background-color: #86a8e7;
+    border: 2px solid #86a8e7;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 4px;
+    font-family: Bad Script;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+
+

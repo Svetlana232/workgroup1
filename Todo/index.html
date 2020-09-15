@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" >
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <LINK rel=stylesheet href=todo.css type=text/css>  
+  <title>TODO</title>
+ </head>
+ <body>
+  
+  <!-- Комментарий -->
+   
+	<div id="todo">
+            <h1>Мои списки дел <i id="pensil" class="fas fa-pencil-alt"></i></h1>
+            <input type="text" placeholder="Добавить список">
+            <ul class="todos">
+                <li><span class="todo-text">Выучить html</span><span class="todo-trash"><i class="fas fa-trash-alt"></i></span></li>
+                <li><span class="todo-text">Выучить css</span><span class="todo-trash"><i class="fas fa-trash-alt"></i></span></li>
+				<li><span class="todo-text">Выучить JS</span><span class="todo-trash"><i class="fas fa-trash-alt"></i></span></li>
+			</ul>
+            <div id="buttons">
+                <button class="save">Добавить запись</button>                
+                <button class="edit">Редактировать запись</button>
+				<button class="clear">Очистить запись</button>
+            </div>
+	 </div>
+	<script> 
+	let textId=document.getElementById("in1");
+	//alert(textId);
+	
+	addEventListener("keyup", (event) => {if(event.code == "Enter"); });
+	</script>
+	
+  
+ </body>
+</html>
